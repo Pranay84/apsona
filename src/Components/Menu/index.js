@@ -5,7 +5,6 @@ import { MdOutlineArchive } from "react-icons/md";
 import { BsTrash } from "react-icons/bs";
 import './index.css'
 import { Link } from "react-router-dom";
-import Notes from "../Notes";
 
 const Menu = () => {
     return(

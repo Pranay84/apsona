@@ -7,7 +7,6 @@ import UserContext from '../../Context/userContext';
 const Login = () => {
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')
-    const [state, setState] = useState(false)
 
     const navigate = useNavigate()
 
@@ -48,7 +47,7 @@ const Login = () => {
     return(
         <UserContext.Consumer>
             {value => {
-                const {emails, getEmails} = value
+                const {getEmails} = value
                 const logedIn = event => {
                     event.preventDefault()
 

@@ -1,7 +1,7 @@
 import Cookies from 'js-cookie'
 import { CiSearch } from "react-icons/ci";
 import './index.css'
-import { Component, useEffect, useState } from 'react';
+import { Component } from 'react';
 import UserContext from '../../Context/userContext';
 
 class Navbar extends Component{
