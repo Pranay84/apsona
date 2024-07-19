@@ -1,0 +1,29 @@
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 0px;
+    gap: 13px;
+    width: 260px;
+    text-decoration: none;
+    color: black;
+}
+
+.icons{
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.labels{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}

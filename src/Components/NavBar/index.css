@@ -1,0 +1,40 @@
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchBar{
+    border: 0px;
+    width: 450px;
+    background-color: #e8e8e4;
+    padding-left: 6px;
+    padding: 16.4px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 16px;
+}
+
+.searchIcon{
+    background-color: #e8e8e4;
+    border: 0px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 14.5px;
+    padding-right: 0px;
+    font-size: 23px;
+}
+
+.profileImg{
+    width: 55px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 50px;
+}

@@ -1,0 +1,10 @@
+.sortedContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonIcons{
+    font-size: 20px;
+    background-color: transparent;
+    border: 0px;
+}
