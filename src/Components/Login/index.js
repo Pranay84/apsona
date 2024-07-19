@@ -37,7 +37,6 @@ const Login = () => {
             if (data.jwtToken !== undefined){
                 const {jwtToken} = data
                 Cookies.set('jwtToken', jwtToken)
-                setState(true)
                 navigate("/")
             }
         }
